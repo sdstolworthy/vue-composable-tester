@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "lib",
+    "rootDir": "src"
+  },
+  "exclude": ["node_modules", "tests", "jest.config.ts", "lib"]
+}
