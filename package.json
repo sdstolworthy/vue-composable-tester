@@ -2,10 +2,12 @@
   "name": "vue-composable-function-tester",
   "version": "1.0.0",
   "description": "A test utility for testing vue composable functions",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest tests/"
+    "test": "jest tests/",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
