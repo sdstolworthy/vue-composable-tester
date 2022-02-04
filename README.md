@@ -12,7 +12,7 @@ Vue Composable Function Tester simplifies testing Composable Functions in Vue 3.
 
 `npm install --save-dev vue-composable-function-tester`
 
-`yarn add --dev vue-compatible-function-tester`
+`yarn add --dev vue-composable-function-tester`
 
 ## Usage
 
