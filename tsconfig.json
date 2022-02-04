@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2018",
     "strict": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "skipLibCheck": true,
     "declaration": true,
-    "esModuleInterop": true,
     "outDir": "lib",
-    "rootDir": "src"
+    "rootDir": "src",
+    "skipLibCheck": true
   },
-  "exclude": ["node_modules", "tests", "jest.config.ts", "lib"]
+  "exclude": ["tests", "jest.config.ts", "lib"]
 }
