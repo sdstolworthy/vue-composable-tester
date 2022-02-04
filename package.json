@@ -7,7 +7,6 @@
   "scripts": {
     "build": "tsc",
     "test": "jest tests/",
-    "prepublish": "npm run build",
     "prebuild": "npm install"
   },
   "repository": {
