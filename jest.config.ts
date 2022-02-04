@@ -1,10 +1,12 @@
-import type {Config} from '@jest/types';
+import type { Config } from "@jest/types";
 // Sync object
 const config: Config.InitialOptions = {
-  testEnvironment: 'jsdom',
+  testEnvironment: "jsdom",
   verbose: true,
   transform: {
-    '^.+\\.ts?$': 'ts-jest',
+    "^.+\\.ts?$": "ts-jest",
   },
+  collectCoverage: true,
+  collectCoverageFrom: ["src/**.ts"],
 };
-export default config
+export default config;

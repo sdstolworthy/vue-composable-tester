@@ -23,7 +23,8 @@ to the reactive values. In addition, the tester returns a `nextTick` method that
 
 Credit should be given to ktsn, the author of [Vue Composable Tester](https://github.com/ktsn/vue-composable-tester) for his work on a similar solution.
 
-[From a common example on the web](https://vueschool.io/articles/vuejs-tutorials/what-is-a-vue-js-composable/)
+Here's an example of testing a simple counter composable [based on a popular Vue tutorial](https://vueschool.io/articles/vuejs-tutorials/what-is-a-vue-js-composable/)
+
 ```typescript
 test("updates after invoking a setter method", async () => {
   const useCount = () => {
@@ -43,7 +44,10 @@ test("updates after invoking a setter method", async () => {
 });
 ```
 
-Using a promise:
+Here is a simple example of testing a composable that updates state based on the resolution of a promise.
+
+Notice that the `nextTick()` method is called for each tick of the state that is expected from the composable.
+
 ```typescript
 export function useAsynchronousLoader<T>(promiseCreator: () => Promise<T>) {
   const isLoading = ref(false);
@@ -84,3 +88,10 @@ it("Reacts to a resolving promise", async () => {
   expect(composable.data.isLoading.value).toBe(false);
 });
 ```
+
+## Want to help?
+
+If you think you can help make this package better, please open an issue or a pull request and start a conversation.
+
+Do you have a novel example that you want to share? Open an issue so we can add it to the Readme!
+
