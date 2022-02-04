@@ -1,6 +1,6 @@
-import { onMounted, ref } from "vue";
+import {  ref } from "vue";
 
-export function useComposableFunction<T>(promiseCreator: () => Promise<T>) {
+export function useAsynchronousLoader<T>(promiseCreator: () => Promise<T>) {
   const isLoading = ref(false);
   const data = ref<T>();
   const error = ref<object>();
