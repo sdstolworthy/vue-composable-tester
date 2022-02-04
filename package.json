@@ -19,7 +19,7 @@
     "vue3"
   ],
   "author": "Spencer Stolworthy",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sdstolworthy/vue-composable-tester/issues"
   },
