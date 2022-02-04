@@ -2,6 +2,8 @@
 
 [![Publish Package to NPM](https://github.com/sdstolworthy/vue-composable-tester/actions/workflows/publish-to-npm.yaml/badge.svg)](https://github.com/sdstolworthy/vue-composable-tester/actions/workflows/publish-to-npm.yaml)
 
+[![Coverage Status](https://coveralls.io/repos/github/sdstolworthy/vue-composable-tester/badge.svg?branch=main)](https://coveralls.io/github/sdstolworthy/vue-composable-tester?branch=main)
+
 # Vue Composable Function Tester
 
 Vue Composable Function Tester simplifies testing Composable Functions in Vue 3.
